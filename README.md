@@ -1,3 +1,5 @@
+![](./pic.png)
+
 # enrichr-api
 
 `query_enrichr_v0.1.py`: python script to programmatically enrich your data using Enrichr
