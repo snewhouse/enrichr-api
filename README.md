@@ -1,4 +1,4 @@
-![](./pic.png)
+![](pic.png)
 
 # enrichr-api
 
