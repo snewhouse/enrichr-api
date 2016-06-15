@@ -1,0 +1,6 @@
+{
+  "name": "Enrichr-api",
+  "tagline": "Enrichr API: python script to programmatically enrich your data using Enrichr",
+  "body": "# enrichr-api\r\n\r\n`query_enrichr_v0.1.py`: python script to programmatically enrich your data using Enrichr\r\n\r\n- http://amp.pharm.mssm.edu/Enrichr/  \r\n\r\n## Usage\r\n\r\n```bash\r\npython query_enrichr_v0.1.py <genelist> <listdesrciption> <enrichr_library> <enrichr_results>\r\n```\r\n\r\n### Example\r\n\r\n```bash\r\n## get it\r\ngit clone https://github.com/snewhouse/enrichr-api.git \r\ncd enrichr-api\r\n\r\n\r\n## run it\r\npython query_enrichr_v0.1.py gene_list.txt my_test KEGG_2015 KEGG_2015__enrichment\r\n```\r\n\r\n\r\n## Enrichr Libraries\r\n\r\n- http://amp.pharm.mssm.edu/Enrichr/#stats  \r\n- [enrichr_libs_list_June_2016](https://github.com/snewhouse/brain_gene_expression/blob/master/enrichr_api/enrichr_libs_list_June_2016.txt)  \r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
