@@ -6,13 +6,12 @@
 
 [Enrichr](http://amp.pharm.mssm.edu/Enrichr) 
 
-**Enrichr: interactive and collaborative HTML5 gene list enrichment analysis tool.***
+**Enrichr: interactive and collaborative HTML5 gene list enrichment analysis tool.**  
 **BMC Bioinformatics. 2013 Apr 15;14:128. doi: 10.1186/1471-2105-14-128.**  
 Chen EY1, Tan CM, Kou Y, Duan Q, Wang Z, Meirelles GV, Clark NR, Ma'ayan A.
-Author information
-Department of Pharmacology and Systems Therapeutics, Icahn School of Medicine at Mount Sinai, One Gustave L, Levy Place, Box 1215, New York, NY 10029, USA.
+>Author information  
+>Department of Pharmacology and Systems Therapeutics, Icahn School of Medicine at Mount Sinai, One Gustave L, Levy Place, Box 1215, New >York, NY 10029, USA.
 
-Abstract
 BACKGROUND:
 System-wide profiling of genes and proteins in mammalian cells produce lists of differentially expressed genes/proteins that need to be further analyzed for their collective functions in order to extract new knowledge. Once unbiased lists of genes or proteins are generated from such experiments, these lists are used as input for computing enrichment with existing lists created from prior knowledge organized into gene-set libraries. While many enrichment analysis tools and gene-set libraries databases have been developed, there is still room for improvement.
 RESULTS:
