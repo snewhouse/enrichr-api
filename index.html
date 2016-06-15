@@ -19,35 +19,59 @@
     </section>
 
     <section class="main-content">
-      <h1>
+      <p><img src="pic.png" alt=""></p>
+
+<h1>
 <a id="enrichr-api" class="anchor" href="#enrichr-api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>enrichr-api</h1>
 
 <p><code>query_enrichr_v0.1.py</code>: python script to programmatically enrich your data using Enrichr</p>
 
-<ul>
-<li>
-<a href="http://amp.pharm.mssm.edu/Enrichr/">http://amp.pharm.mssm.edu/Enrichr/</a><br>
-</li>
-</ul>
+<p><em>Note: all credit goes to the Enrichr folks...I just stuck their examples from <a href="http://amp.pharm.mssm.edu/Enrichr/help#api">http://amp.pharm.mssm.edu/Enrichr/help#api</a> together</em></p>
+
+<hr>
+
+<h2>
+<a id="enrichr-interactive-and-collaborative-html5-gene-list-enrichment-analysis-tool" class="anchor" href="#enrichr-interactive-and-collaborative-html5-gene-list-enrichment-analysis-tool" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Enrichr: interactive and collaborative HTML5 gene list enrichment analysis tool.</strong>
+</h2>
+
+<p>BMC Bioinformatics. 2013 Apr 15;14:128. doi: 10.1186/1471-2105-14-128<br>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/23586463">PMID: 23586463 [PubMed - indexed for MEDLINE] PMCID: PMC3637064</a>  </p>
+
+<blockquote>
+<p>Enrichr, ia an integrative web-based and mobile software application that includes new gene-set libraries, an alternative approach to rank enriched terms, and various interactive visualization approaches to display enrichment results using the JavaScript library, Data Driven Documents (D3). The software can also be embedded into any tool that performs gene list analysis. 
+Enrichr is an easy to use intuitive enrichment analysis web-based tool providing various types of visualization summaries of collective functions of gene lists. </p>
+</blockquote>
+
+<p>Enrichr is open source and freely available online at: <a href="http://amp.pharm.mssm.edu/Enrichr">http://amp.pharm.mssm.edu/Enrichr</a> .</p>
+
+<hr>
+
+<h2>
+<a id="get-query_enrichr_v01py" class="anchor" href="#get-query_enrichr_v01py" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>get query_enrichr_v0.1.py</h2>
+
+<div class="highlight highlight-source-shell"><pre><span class="pl-c">## get it</span>
+git clone https://github.com/snewhouse/enrichr-api.git </pre></div>
 
 <h2>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
 
 <div class="highlight highlight-source-shell"><pre>python query_enrichr_v0.1.py <span class="pl-k">&lt;</span>genelist<span class="pl-k">&gt;</span> <span class="pl-k">&lt;</span>listdesrciption<span class="pl-k">&gt;</span> <span class="pl-k">&lt;</span>enrichr_library<span class="pl-k">&gt;</span> <span class="pl-k">&lt;</span>enrichr_results<span class="pl-k">&gt;</span></pre></div>
 
+<p><strong>Positional Inputs</strong>  </p>
+
+<ul>
+<li>
+<strong>genelist</strong>         : flat file with list of genes, one gene id per row</li>
+<li>
+<strong>listdesrciption</strong>  : name of analysis</li>
+<li>
+<strong>enrichr_library</strong>  : Enrichr Library to query. See below.</li>
+<li>
+<strong>enrichr_results</strong>  : out put file prefix</li>
+</ul>
+
 <h3>
-<a id="example" class="anchor" href="#example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example</h3>
-
-<div class="highlight highlight-source-shell"><pre><span class="pl-c">## get it</span>
-git clone https://github.com/snewhouse/enrichr-api.git 
-<span class="pl-c1">cd</span> enrichr-api
-
-
-<span class="pl-c">## run it</span>
-python query_enrichr_v0.1.py gene_list.txt my_test KEGG_2015 KEGG_2015__enrichment</pre></div>
-
-<h2>
-<a id="enrichr-libraries" class="anchor" href="#enrichr-libraries" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Enrichr Libraries</h2>
+<a id="enrichr-libraries" class="anchor" href="#enrichr-libraries" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Enrichr Libraries</h3>
 
 <ul>
 <li>
@@ -57,6 +81,31 @@ python query_enrichr_v0.1.py gene_list.txt my_test KEGG_2015 KEGG_2015__enrichme
 <a href="https://github.com/snewhouse/brain_gene_expression/blob/master/enrichr_api/enrichr_libs_list_June_2016.txt">enrichr_libs_list_June_2016</a><br>
 </li>
 </ul>
+
+<hr>
+
+<h2>
+<a id="example-run" class="anchor" href="#example-run" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example Run</h2>
+
+<p>Query <code>KEGG_2015</code>  </p>
+
+<p><strong>Input Options:</strong></p>
+
+<ul>
+<li>
+<strong>genelist</strong>         : gene_list.txt</li>
+<li>
+<strong>listdesrciption</strong>  : my_test</li>
+<li>
+<strong>enrichr_library</strong>  : KEGG_2015</li>
+<li>
+<strong>enrichr_results</strong>  : KEGG_2015__enrichment</li>
+</ul>
+
+<p>The code</p>
+
+<div class="highlight highlight-source-shell"><pre><span class="pl-c">## run it</span>
+python query_enrichr_v0.1.py gene_list.txt my_test KEGG_2015 KEGG_2015__enrichment</pre></div>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/snewhouse/enrichr-api">Enrichr-api</a> is maintained by <a href="https://github.com/snewhouse">snewhouse</a>.</span>
