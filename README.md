@@ -24,22 +24,29 @@ python query_enrichr_v0.1.py <genelist> <listdesrciption> <enrichr_library> <enr
 - **enrichr_library**  : Enrichr Library to query. See below.
 - **enrichr_results**  : out put file prefix
 
+### Enrichr Libraries
+
+- http://amp.pharm.mssm.edu/Enrichr/#stats  
+- [enrichr_libs_list_June_2016](https://github.com/snewhouse/brain_gene_expression/blob/master/enrichr_api/enrichr_libs_list_June_2016.txt)  
+
+
 ******
 
-### Example
+### Example Run
+
+Query `KEGG_2015`  
+
+**Input Options:**
 
 - **genelist**         : gene_list.txt
 - **listdesrciption**  : my_test
 - **enrichr_library**  : KEGG_2015
 - **enrichr_results**  : KEGG_2015__enrichment
 
+The code
+
 ```bash
 ## run it
-cd enrichr-api
 python query_enrichr_v0.1.py gene_list.txt my_test KEGG_2015 KEGG_2015__enrichment
 ```
 
-## Enrichr Libraries
-
-- http://amp.pharm.mssm.edu/Enrichr/#stats  
-- [enrichr_libs_list_June_2016](https://github.com/snewhouse/brain_gene_expression/blob/master/enrichr_api/enrichr_libs_list_June_2016.txt)  
