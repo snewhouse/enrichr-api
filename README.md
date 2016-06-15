@@ -17,11 +17,11 @@ git clone https://github.com/snewhouse/enrichr-api.git
 python query_enrichr_v0.1.py <genelist> <listdesrciption> <enrichr_library> <enrichr_results>
 ```
 
-**Inputs**  
-- genelist  
-- listdesrciption  
-- enrichr_library  
-- enrichr_results  
+**Positional Inputs**  
+- genelist         : flat file with list of genes, one gene id per row  
+- listdesrciption  : name of analysis
+- enrichr_library  : Enrichr Library to query. See below.
+- enrichr_results  : out put file prefix
 
 ### Example
 
