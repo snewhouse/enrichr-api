@@ -18,10 +18,10 @@ python query_enrichr_v0.1.py <genelist> <listdesrciption> <enrichr_library> <enr
 ```
 
 **Inputs**  
-- <genelist> 
-- <listdesrciption> 
-- <enrichr_library> 
-- <enrichr_results>
+- genelist  
+- listdesrciption  
+- enrichr_library  
+- enrichr_results  
 
 ### Example
 
