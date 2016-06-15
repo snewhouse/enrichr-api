@@ -6,11 +6,11 @@
 
 ## **Enrichr: interactive and collaborative HTML5 gene list enrichment analysis tool.**  
 BMC Bioinformatics. 2013 Apr 15;14:128. doi: 10.1186/1471-2105-14-128   
-[P1MID: 23586463 [PubMed - indexed for MEDLINE] PMCID: PMC3637064] (http://www.ncbi.nlm.nih.gov/pubmed/23586463)  
+[PMID: 23586463 [PubMed - indexed for MEDLINE] PMCID: PMC3637064] (http://www.ncbi.nlm.nih.gov/pubmed/23586463)  
 
-Enrichr, ia an integrative web-based and mobile software application that includes new gene-set libraries, an alternative approach to rank enriched terms, and various interactive visualization approaches to display enrichment results using the JavaScript library, Data Driven Documents (D3). The software can also be embedded into any tool that performs gene list analysis. 
+      Enrichr, ia an integrative web-based and mobile software application that includes new gene-set libraries, an alternative approach to rank enriched terms, and various interactive visualization approaches to display enrichment results using the JavaScript library, Data Driven Documents (D3). The software can also be embedded into any tool that performs gene list analysis. 
 
-Enrichr is an easy to use intuitive enrichment analysis web-based tool providing various types of visualization summaries of collective functions of gene lists. 
+      Enrichr is an easy to use intuitive enrichment analysis web-based tool providing various types of visualization summaries of collective functions of gene lists. 
 
 Enrichr is open source and freely available online at: [http://amp.pharm.mssm.edu/Enrichr](http://amp.pharm.mssm.edu/Enrichr) .
 
