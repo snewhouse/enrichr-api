@@ -43,7 +43,7 @@ python query_enrichr_v0.1.py <genelist> <listdesrciption> <enrichr_library> <enr
 
 ******
 
-### Example Run
+## Example Run
 
 Query `KEGG_2015`  
 
