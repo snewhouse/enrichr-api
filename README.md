@@ -4,21 +4,30 @@
 
 - http://amp.pharm.mssm.edu/Enrichr/  
 
+
+## get it
+```bash
+## get it
+git clone https://github.com/snewhouse/enrichr-api.git 
+```
+
 ## Usage
 
 ```bash
 python query_enrichr_v0.1.py <genelist> <listdesrciption> <enrichr_library> <enrichr_results>
 ```
 
+**Inputs**  
+- <genelist> 
+- <listdesrciption> 
+- <enrichr_library> 
+- <enrichr_results>
+
 ### Example
 
 ```bash
-## get it
-git clone https://github.com/snewhouse/enrichr-api.git 
-cd enrichr-api
-
-
 ## run it
+cd enrichr-api
 python query_enrichr_v0.1.py gene_list.txt my_test KEGG_2015 KEGG_2015__enrichment
 ```
 
