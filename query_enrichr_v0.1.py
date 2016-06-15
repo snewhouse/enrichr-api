@@ -1,4 +1,11 @@
-  #!/usr/bin/env python
+#!/usr/bin/env python
+
+#
+# Author: Stephen Newhouse <stephen.j.newhouse@gmail.com>
+# Date: June 2016
+# see: http://amp.pharm.mssm.edu/Enrichr/help#api for API docs
+#
+# Usage: python query_enrichr_v0.1.py <genelist> <listdesrciption> <enrichr_library> <enrichr_results>
 
 import json
 import requests
