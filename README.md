@@ -38,7 +38,12 @@ python query_enrichr_v0.1.py <genelist> <listdesrciption> <enrichr_library> <enr
 - **enrichr_library**  : Enrichr Library to query. See below.
 - **enrichr_results**  : out put file prefix
 
-### Enrichr Libraries
+## Requirements
+- python 
+
+Tested with Python 2.7.11  
+
+## Enrichr Libraries
 
 - http://amp.pharm.mssm.edu/Enrichr/#stats  
 - [enrichr_libs_list_June_2016](https://github.com/snewhouse/brain_gene_expression/blob/master/enrichr_api/enrichr_libs_list_June_2016.txt)  
