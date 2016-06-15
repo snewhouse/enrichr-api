@@ -24,6 +24,8 @@ python query_enrichr_v0.1.py <genelist> <listdesrciption> <enrichr_library> <enr
 - **enrichr_library**  : Enrichr Library to query. See below.
 - **enrichr_results**  : out put file prefix
 
+******
+
 ### Example
 
 - **genelist**         : gene_list.txt
