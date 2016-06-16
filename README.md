@@ -2,7 +2,8 @@
 
 # enrichr-api
 
-## : query_enrichr_py**.py
+## query_enrichr_py*.py
+
 python script to programmatically enrich your data using Enrichr
 
 *Note: all credit goes to the Enrichr folks...I just stuck their examples from http://amp.pharm.mssm.edu/Enrichr/help#api together*
