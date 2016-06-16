@@ -29,7 +29,11 @@ git clone https://github.com/snewhouse/enrichr-api.git
 ## Usage
 
 ```bash
-python query_enrichr_v0.1.py <genelist> <listdesrciption> <enrichr_library> <enrichr_results>
+## python versin 2+
+python query_enrichr_p2.py <genelist> <listdesrciption> <enrichr_library> <enrichr_results>
+
+## python version 3+
+python query_enrichr_p3.py <genelist> <listdesrciption> <enrichr_library> <enrichr_results>
 ```
 
 **Positional Inputs**  
@@ -42,6 +46,7 @@ python query_enrichr_v0.1.py <genelist> <listdesrciption> <enrichr_library> <enr
 - python 
 
 Tested with Python 2.7.11  
+Tested with Python 3.5.1 :: Anaconda 4.0.0 (x86_64)
 
 ## Enrichr Libraries
 
@@ -66,6 +71,6 @@ The code
 
 ```bash
 ## run it
-python query_enrichr_v0.1.py gene_list.txt my_test KEGG_2015 KEGG_2015__enrichment
+python query_enrichr_p3.py gene_list.txt my_test KEGG_2015 KEGG_2015__enrichment
 ```
 
