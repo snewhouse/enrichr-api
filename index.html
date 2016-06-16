@@ -24,7 +24,7 @@
 <h1>
 <a id="enrichr-api" class="anchor" href="#enrichr-api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>enrichr-api</h1>
 
-<p><code>query_enrichr_v0.1.py</code>: python script to programmatically enrich your data using Enrichr</p>
+<p><code>query_enrichr_py*.py</code> : python scripts to programmatically enrich your data using Enrichr</p>
 
 <p><em>Note: all credit goes to the Enrichr folks...I just stuck their examples from <a href="http://amp.pharm.mssm.edu/Enrichr/help#api">http://amp.pharm.mssm.edu/Enrichr/help#api</a> together</em></p>
 
@@ -55,7 +55,11 @@ git clone https://github.com/snewhouse/enrichr-api.git </pre></div>
 <h2>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
 
-<div class="highlight highlight-source-shell"><pre>python query_enrichr_v0.1.py <span class="pl-k">&lt;</span>genelist<span class="pl-k">&gt;</span> <span class="pl-k">&lt;</span>listdesrciption<span class="pl-k">&gt;</span> <span class="pl-k">&lt;</span>enrichr_library<span class="pl-k">&gt;</span> <span class="pl-k">&lt;</span>enrichr_results<span class="pl-k">&gt;</span></pre></div>
+<div class="highlight highlight-source-shell"><pre><span class="pl-c">## python versin 2+</span>
+python query_enrichr_p2.py <span class="pl-k">&lt;</span>genelist<span class="pl-k">&gt;</span> <span class="pl-k">&lt;</span>listdesrciption<span class="pl-k">&gt;</span> <span class="pl-k">&lt;</span>enrichr_library<span class="pl-k">&gt;</span> <span class="pl-k">&lt;</span>enrichr_results<span class="pl-k">&gt;</span>
+
+<span class="pl-c">## python version 3+</span>
+python query_enrichr_p3.py <span class="pl-k">&lt;</span>genelist<span class="pl-k">&gt;</span> <span class="pl-k">&lt;</span>listdesrciption<span class="pl-k">&gt;</span> <span class="pl-k">&lt;</span>enrichr_library<span class="pl-k">&gt;</span> <span class="pl-k">&lt;</span>enrichr_results<span class="pl-k">&gt;</span></pre></div>
 
 <p><strong>Positional Inputs</strong>  </p>
 
@@ -70,8 +74,18 @@ git clone https://github.com/snewhouse/enrichr-api.git </pre></div>
 <strong>enrichr_results</strong>  : out put file prefix</li>
 </ul>
 
-<h3>
-<a id="enrichr-libraries" class="anchor" href="#enrichr-libraries" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Enrichr Libraries</h3>
+<h2>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements</h2>
+
+<ul>
+<li>python </li>
+</ul>
+
+<p>Tested with Python 2.7.11<br>
+Tested with Python 3.5.1 :: Anaconda 4.0.0 (x86_64)</p>
+
+<h2>
+<a id="enrichr-libraries" class="anchor" href="#enrichr-libraries" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Enrichr Libraries</h2>
 
 <ul>
 <li>
@@ -105,7 +119,7 @@ git clone https://github.com/snewhouse/enrichr-api.git </pre></div>
 <p>The code</p>
 
 <div class="highlight highlight-source-shell"><pre><span class="pl-c">## run it</span>
-python query_enrichr_v0.1.py gene_list.txt my_test KEGG_2015 KEGG_2015__enrichment</pre></div>
+python query_enrichr_p3.py gene_list.txt my_test KEGG_2015 KEGG_2015__enrichment</pre></div>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/snewhouse/enrichr-api">Enrichr-api</a> is maintained by <a href="https://github.com/snewhouse">snewhouse</a>.</span>
