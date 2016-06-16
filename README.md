@@ -19,20 +19,21 @@ Enrichr is open source and freely available online at: [http://amp.pharm.mssm.ed
 
 **********
 
-## get query_enrichr_v0.1.py
+## get it
 
 ```bash
-## get it
 git clone https://github.com/snewhouse/enrichr-api.git 
 ```
 
 ## Usage
 
+#### python versin 2+
 ```bash
-## python versin 2+
 python query_enrichr_p2.py <genelist> <listdesrciption> <enrichr_library> <enrichr_results>
+```
 
-## python version 3+
+#### python version 3+
+```bash
 python query_enrichr_p3.py <genelist> <listdesrciption> <enrichr_library> <enrichr_results>
 ```
 
