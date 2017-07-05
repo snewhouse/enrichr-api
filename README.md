@@ -6,6 +6,8 @@
 
 *Note: all credit goes to the Enrichr folks...I just stuck their examples from http://amp.pharm.mssm.edu/Enrichr/help#api together*
 
+[![DOI](https://zenodo.org/badge/61207176.svg)](https://zenodo.org/badge/latestdoi/61207176)
+
 ******
 
 ## **Enrichr: interactive and collaborative HTML5 gene list enrichment analysis tool.**  
